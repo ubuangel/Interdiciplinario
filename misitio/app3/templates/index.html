@@ -1,0 +1,18 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+<h1>Pagina</h1>
+
+  <p>Bienvenido <em>Planificador Costos Pagina de inicio</em>Developer Network.</p>
+
+<h2>Dynamic content</h2>
+
+  <p>Tiene lo siguiente:</p>
+  <ul>
+    <li><strong>Pedidos:</strong> {{ num_b }}</li>
+    <li><strong>Productos:</strong> {{ num_p }}</li>
+    
+    <li><strong>Provedores:</strong> {{ num_Pr }}</li>
+  </ul>
+
+{% endblock %}
